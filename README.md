@@ -1,1 +1,1 @@
-[RFID Card Reader](wiki/RFIDCardReader)
+[RFID Card Reader](../../wiki/RFIDCardReader)
