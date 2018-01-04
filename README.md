@@ -1,1 +1,1 @@
-![RFID Card Reader](screenshots/card_reader.jpg)
+[RFID Card Reader](wiki/RFIDCardReader)
