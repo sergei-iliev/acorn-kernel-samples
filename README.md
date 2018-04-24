@@ -4,5 +4,5 @@
 
 [PS2 keyboard interface to Android over Bluetooth](../../wiki/PS2-keyboard-interface-to-Android-over-Blutooth)
 
-[Soler powered street light](../../wiki/PS2-keyboard-interface-to-Android-over-Blutooth)
+[Soler powered street light](../../wiki/Solar-powered-street-light)
 
