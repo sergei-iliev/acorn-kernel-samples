@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuits identity="circuit" designer="Unknown author" version="1.2">
+<circuit width="958" height="606">
+<name>SolarControlA</name>
+<symbols>
+<chips>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>ISP6PIN</name>
+<reference><label color="-16777216">J1,888,201,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">ISP6PIN,887,131,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>888,136,32,56,1,1,0</rectangle>
+<pin type="1" style="0">
+<a>888,184, + false + ,2,0</a>
+<name>MISO,892,187,LEFT,PLAIN,8</name>
+<number>1,885,183,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>888,176, + false + ,2,0</a>
+<name>VTG,892,179,LEFT,PLAIN,8</name>
+<number>2,885,175,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>888,168, + false + ,2,0</a>
+<name>SCK,892,171,LEFT,PLAIN,8</name>
+<number>3,885,167,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>888,160, + false + ,2,0</a>
+<name>MOSI,892,163,LEFT,PLAIN,8</name>
+<number>4,885,159,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>888,152, + false + ,2,0</a>
+<name>RST,892,155,LEFT,PLAIN,8</name>
+<number>5,885,151,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>888,144, + false + ,2,0</a>
+<name>GND,892,147,LEFT,PLAIN,8</name>
+<number>6,885,143,RIGHT,PLAIN,8</number>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C5,599,86,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">220μF/16V,593,98,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>576,80,592,80,1</line>
+<rectangle>576,83,16,5,2,1,0</rectangle>
+<label color="-16777216">+,574,79,LEFT,PLAIN,8</label>
+<pin type="0" style="0">
+<a>584,80, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>584,88, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R9,754,135,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">4.7kΩ,773,141,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>756,120,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>760,144, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>760,120, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R7,338,271,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">3kΩ,356,274,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>340,256,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>344,280, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>344,256, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R8,338,311,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">1kΩ,356,314,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>340,296,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>344,320, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>344,296, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R5,314,407,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">3kΩ,332,410,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>316,392,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>320,416, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>320,392, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R6,314,447,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">750Ω,332,450,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>316,432,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>320,456, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>320,432, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C2,373,301,RIGHT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10ηF,374,321,RIGHT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>368,304,16,3,1,2,0</rectangle>
+<rectangle>368,309,16,3,1,2,0</rectangle>
+<pin type="0" style="0">
+<a>376,304, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>376,312, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C1,360,439,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10ηF,358,456,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>344,440,16,3,1,2,0</rectangle>
+<rectangle>344,445,16,3,1,2,0</rectangle>
+<pin type="0" style="0">
+<a>352,440, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>352,448, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R1,199,99,RIGHT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10kΩ,207,79,RIGHT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>184,84,24,8,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>208,88, + false + ,3,0</a>
+</pin>
+<pin type="0" style="0">
+<a>184,88, + false + ,2,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R2,199,323,RIGHT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10kΩ,202,305,RIGHT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>184,308,24,8,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>208,312, + false + ,3,0</a>
+</pin>
+<pin type="0" style="0">
+<a>184,312, + false + ,2,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C7,768,159,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10ηF,766,176,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>752,160,16,3,1,2,0</rectangle>
+<rectangle>752,165,16,3,1,2,0</rectangle>
+<pin type="0" style="0">
+<a>760,160, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>760,168, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Inductor</name>
+<reference><label color="-16777216">L2,803,418,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">100μH,802,430,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>784,433,784,415,1</line>
+<ellipse>786,429,12,6,1,1</ellipse>
+<ellipse>786,426,12,6,1,1</ellipse>
+<ellipse>786,423,12,6,1,1</ellipse>
+<ellipse>786,420,12,6,1,1</ellipse>
+<ellipse>786,417,12,6,1,1</ellipse>
+<ellipse>786,414,12,6,1,1</ellipse>
+<pin type="0" style="0">
+<a>792,432, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>792,416, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C8,800,463,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10η,798,480,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>784,464,16,3,1,2,0</rectangle>
+<rectangle>784,469,16,3,1,2,0</rectangle>
+<pin type="0" style="0">
+<a>792,464, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>792,472, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R3,258,167,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">1kΩ,278,172,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>260,152,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>264,176, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>264,152, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Inductor</name>
+<reference><label color="-16777216">L1,543,78,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">330μH,543,87,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>561,56,543,56,1</line>
+<ellipse>557,58,6,12,1,1</ellipse>
+<ellipse>554,58,6,12,1,1</ellipse>
+<ellipse>551,58,6,12,1,1</ellipse>
+<ellipse>548,58,6,12,1,1</ellipse>
+<ellipse>545,58,6,12,1,1</ellipse>
+<ellipse>542,58,6,12,1,1</ellipse>
+<pin type="0" style="0">
+<a>560,64, + false + ,3,0</a>
+</pin>
+<pin type="0" style="0">
+<a>544,64, + false + ,2,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>LM2574N</name>
+<reference><label color="-16777216">IC1,416,36,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">LM2574N,416,89,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>416,40,64,40,1,1,0</rectangle>
+<pin type="1" style="0">
+<a>480,48, + false + ,3,0</a>
+<name>FB,476,51,RIGHT,PLAIN,8</name>
+<number>1,487,47,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>416,64, + false + ,2,0</a>
+<name>Sig Gnd,419,67,LEFT,PLAIN,8</name>
+<number>2,409,63,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>416,56, + false + ,2,0</a>
+<name>ON/OFF,419,59,LEFT,PLAIN,8</name>
+<number>3,409,55,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>416,48, + false + ,2,0</a>
+<name>Pwr Gnd,419,51,LEFT,PLAIN,8</name>
+<number>4,409,47,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>416,72, + false + ,2,0</a>
+<name>Vin,419,75,LEFT,PLAIN,8</name>
+<number>5,409,71,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>480,64, + false + ,3,0</a>
+<name>Out,477,67,RIGHT,PLAIN,8</name>
+<number>7,487,63,LEFT,PLAIN,8</number>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R4,258,391,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">1kΩ,276,394,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>260,376,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>264,400, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>264,376, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C3,371,90,RIGHT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10μF/25V,371,99,RIGHT,PLAIN,8</label>
+</unit>
+<elements>
+<line>376,88,392,88,1</line>
+<rectangle>376,91,16,5,2,1,0</rectangle>
+<label color="-16777216">+,374,87,LEFT,PLAIN,8</label>
+<pin type="0" style="0">
+<a>384,88, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>384,96, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C6,752,463,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10η,750,480,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>736,464,16,3,1,2,0</rectangle>
+<rectangle>736,469,16,3,1,2,0</rectangle>
+<pin type="0" style="0">
+<a>744,464, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>744,472, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Schottky diod</name>
+<reference><label color="-16777216">D2,354,200,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">1N5819,353,212,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<triangle>2,337,195,14,13,3,2</triangle>
+<line>337,195,351,195,2</line>
+<line>337,199,337,196,2</line>
+<line>351,195,351,192,2</line>
+<line>351,192,348,192,2</line>
+<line>340,199,337,199,2</line>
+<pin type="1" style="0">
+<a>344,200, + false + ,0,0</a>
+</pin>
+<pin type="1" style="0">
+<a>344,200, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Schottky diod</name>
+<reference><label color="-16777216">D3,510,79,RIGHT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">1N5819,511,91,RIGHT,PLAIN,8</label>
+</unit>
+<elements>
+<triangle>2,513,75,14,13,3,2</triangle>
+<line>513,75,527,75,2</line>
+<line>513,79,513,76,2</line>
+<line>527,75,527,72,2</line>
+<line>527,72,524,72,2</line>
+<line>516,79,513,79,2</line>
+<pin type="1" style="0">
+<a>520,80, + false + ,0,0</a>
+</pin>
+<pin type="1" style="0">
+<a>520,80, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Schottky diod</name>
+<reference><label color="-16777216">D1,141,66,RIGHT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">1N5819,141,77,RIGHT,PLAIN,8</label>
+</unit>
+<elements>
+<triangle>8,145,64,14,13,3,2</triangle>
+<line>159,77,145,77,2</line>
+<line>159,73,159,76,2</line>
+<line>145,77,145,80,2</line>
+<line>145,80,148,80,2</line>
+<line>156,73,159,73,2</line>
+<pin type="1" style="0">
+<a>152,72, + false + ,1,0</a>
+</pin>
+<pin type="1" style="0">
+<a>152,72, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C4,528,551,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10η,527,568,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>512,552,16,3,1,2,0</rectangle>
+<rectangle>512,557,16,3,1,2,0</rectangle>
+<pin type="0" style="0">
+<a>520,552, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>520,560, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>AC082A</name>
+<reference><label color="-16777216">U1,221,528,TOP,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">AC082A,367,528,TOP,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>224,528,136,48,1,1,0</rectangle>
+<line>343,552,243,552,3</line>
+<line>343,571,242,571,3</line>
+<arc type="0">333,552,20,19,180,-90,3,1</arc>
+<arc type="0">233,552,20,19,180,-270,3,1</arc>
+<pin type="1" style="0">
+<a>352,528, + false + ,0,0</a>
+<name>VSS,354,533,TOP,PLAIN,8</name>
+<number>1,351,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>344,528, + false + ,0,0</a>
+<name>VDD,346,533,TOP,PLAIN,8</name>
+<number>2,343,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>328,528, + false + ,0,0</a>
+<name>VO,330,533,TOP,PLAIN,8</name>
+<number>3,327,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>320,528, + false + ,0,0</a>
+<name>RS,322,533,TOP,PLAIN,8</name>
+<number>4,319,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>312,528, + false + ,0,0</a>
+<name>R/W,315,533,TOP,PLAIN,8</name>
+<number>5,311,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>304,528, + false + ,0,0</a>
+<name>E,307,533,TOP,PLAIN,8</name>
+<number>6,303,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>288,528, + false + ,0,0</a>
+<name>DB0,290,533,TOP,PLAIN,8</name>
+<number>7,287,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>280,528, + false + ,0,0</a>
+<name>DB1,282,533,TOP,PLAIN,8</name>
+<number>8,279,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>272,528, + false + ,0,0</a>
+<name>DB2,274,533,TOP,PLAIN,8</name>
+<number>9,271,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>264,528, + false + ,0,0</a>
+<name>DB3,266,533,TOP,PLAIN,8</name>
+<number>10,263,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>256,528, + false + ,0,0</a>
+<name>DB4,258,533,TOP,PLAIN,8</name>
+<number>11,255,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>248,528, + false + ,0,0</a>
+<name>DB5,250,533,TOP,PLAIN,8</name>
+<number>12,247,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>240,528, + false + ,0,0</a>
+<name>DB6,242,533,TOP,PLAIN,8</name>
+<number>13,239,521,BOTTOM,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>232,528, + false + ,0,0</a>
+<name>DB7,234,533,TOP,PLAIN,8</name>
+<number>14,231,521,BOTTOM,PLAIN,8</number>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="Atmel" category="CPU"  filename="mega8.xml" name="TQFP"/>
+<name>MEGA8-AI</name>
+<reference><label color="-16777216">IC2,528,352,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">MEGA8-AI,528,141,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>528,144,152,200,1,1,0</rectangle>
+<pin type="1" style="1">
+<a>680,152, + false + ,3,0</a>
+<name>PC6/RESET,674,155,RIGHT,PLAIN,8</name>
+<number>1,686,151,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>680,168, + false + ,3,0</a>
+<name>GND,674,169,RIGHT,PLAIN,8</name>
+<number>22,686,167,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>680,176, + false + ,3,0</a>
+<name>AREF,674,178,RIGHT,PLAIN,8</name>
+<number>21,686,175,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>680,184, + false + ,3,0</a>
+<name>AVCC,674,186,RIGHT,PLAIN,8</name>
+<number>20,686,183,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>680,208, + false + ,3,0</a>
+<name>PB6(XTAL1/TOSC1),674,210,RIGHT,PLAIN,8</name>
+<number>9,686,207,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>680,216, + false + ,3,0</a>
+<name>PB7(XTAL2/TOSC2),674,218,RIGHT,PLAIN,8</name>
+<number>10,686,215,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>680,240, + false + ,3,0</a>
+<name>GND,674,242,RIGHT,PLAIN,8</name>
+<number>8,686,238,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>680,256, + false + ,3,0</a>
+<name>VCC,674,258,RIGHT,PLAIN,8</name>
+<number>7,686,255,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,152, + false + ,2,0</a>
+<name>PC0(ADC0),534,154,LEFT,PLAIN,8</name>
+<number>23,522,151,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,160, + false + ,2,0</a>
+<name>PC1(ADC1),534,162,LEFT,PLAIN,8</name>
+<number>24,522,159,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,168, + false + ,2,0</a>
+<name>PC2(ADC2),534,170,LEFT,PLAIN,8</name>
+<number>25,522,167,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,176, + false + ,2,0</a>
+<name>PC3(ADC3),534,178,LEFT,PLAIN,8</name>
+<number>26,522,175,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,184, + false + ,2,0</a>
+<name>PC4(ADC4/SDA),534,186,LEFT,PLAIN,8</name>
+<number>27,522,183,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,192, + false + ,2,0</a>
+<name>PC5(ADC5/SCL),534,194,LEFT,PLAIN,8</name>
+<number>28,522,191,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,224, + false + ,2,0</a>
+<name>PD0(RXD),534,226,LEFT,PLAIN,8</name>
+<number>2,522,223,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,232, + false + ,2,0</a>
+<name>PD1(TXD),534,234,LEFT,PLAIN,8</name>
+<number>3,522,231,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,240, + false + ,2,0</a>
+<name>PD2(INT0),534,242,LEFT,PLAIN,8</name>
+<number>4,522,239,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,248, + false + ,2,0</a>
+<name>PD3(INT1),534,250,LEFT,PLAIN,8</name>
+<number>5,522,247,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,256, + false + ,2,0</a>
+<name>PD4(XCK/T0),534,258,LEFT,PLAIN,8</name>
+<number>6,522,255,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,264, + false + ,2,0</a>
+<name>PD5(T1),534,266,LEFT,PLAIN,8</name>
+<number>11,522,263,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,272, + false + ,2,0</a>
+<name>PD6(AIN0),534,274,LEFT,PLAIN,8</name>
+<number>12,522,271,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,280, + false + ,2,0</a>
+<name>PD7(AIN1),534,282,LEFT,PLAIN,8</name>
+<number>13,522,279,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,296, + false + ,2,0</a>
+<name>PB0(ICP),534,298,LEFT,PLAIN,8</name>
+<number>14,522,295,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,304, + false + ,2,0</a>
+<name>PB1(OC1A),534,306,LEFT,PLAIN,8</name>
+<number>15,522,303,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,312, + false + ,2,0</a>
+<name>PB2(SS/OC1B),534,314,LEFT,PLAIN,8</name>
+<number>16,522,311,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,320, + false + ,2,0</a>
+<name>PB3(MOSI/OC2,534,322,LEFT,PLAIN,8</name>
+<number>17,522,319,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,328, + false + ,2,0</a>
+<name>PB4(MISO),534,330,LEFT,PLAIN,8</name>
+<number>18,522,327,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>528,336, + false + ,2,0</a>
+<name>PB5(SCK),534,338,LEFT,PLAIN,8</name>
+<number>19,522,335,RIGHT,PLAIN,8</number>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>LED</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<rectangle>257,204,14,4,1,2,0</rectangle>
+<triangle>8,257,192,14,12,1,2</triangle>
+<arrow>254,205,242,200,1,3,2</arrow>
+<arrow>254,195,242,190,1,3,2</arrow>
+<pin type="1" style="0">
+<a>264,200, + false + ,1,0</a>
+</pin>
+<pin type="1" style="0">
+<a>264,200, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>LED</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<rectangle>257,428,14,4,1,2,0</rectangle>
+<triangle>8,257,416,14,12,1,2</triangle>
+<arrow>254,429,242,424,1,3,2</arrow>
+<arrow>254,419,242,414,1,3,2</arrow>
+<pin type="1" style="0">
+<a>264,424, + false + ,1,0</a>
+</pin>
+<pin type="1" style="0">
+<a>264,424, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>P-MOS</name>
+<reference><label color="-16777216">T1,159,157,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">IRF-9530N,158,146,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>163,127,163,122,3</line>
+<line>163,109,163,105,3</line>
+<line>168,124,168,104,1</line>
+<line>163,125,152,125,1</line>
+<line>163,107,152,107,1</line>
+<line>152,132,152,125,1</line>
+<line>152,116,152,101,1</line>
+<line>163,118,163,114,3</line>
+<arrow>163,116,152,116,1,3,2</arrow>
+<ellipse>147,102,28,28,2,1</ellipse>
+<pin type="0" style="0">
+<a>168,104, + false + ,3,0</a>
+</pin>
+<pin type="0" style="0">
+<a>152,128, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>152,104, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>P-MOS</name>
+<reference><label color="-16777216">T2,159,381,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">IRF-9530N,158,370,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>163,351,163,346,3</line>
+<line>163,333,163,329,3</line>
+<line>168,348,168,328,1</line>
+<line>163,349,152,349,1</line>
+<line>163,331,152,331,1</line>
+<line>152,356,152,349,1</line>
+<line>152,340,152,325,1</line>
+<line>163,342,163,338,3</line>
+<arrow>163,340,152,340,1,3,2</arrow>
+<ellipse>147,326,28,28,2,1</ellipse>
+<pin type="0" style="0">
+<a>168,328, + false + ,3,0</a>
+</pin>
+<pin type="0" style="0">
+<a>152,352, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>152,328, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>N-MOS</name>
+<reference><label color="-16777216">T3,249,120,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">BS170,249,107,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>235,121,235,126,3</line>
+<line>235,139,235,143,3</line>
+<line>240,124,240,144,1</line>
+<line>235,123,224,123,1</line>
+<line>235,141,224,141,1</line>
+<line>224,116,224,123,1</line>
+<line>224,132,224,147,1</line>
+<line>235,130,235,134,3</line>
+<arrow>224,132,234,132,1,3,2</arrow>
+<ellipse>219,118,28,28,2,1</ellipse>
+<pin type="0" style="0">
+<a>240,144, + false + ,3,0</a>
+</pin>
+<pin type="0" style="0">
+<a>224,120, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>224,144, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="pook" category=""  filename="pack-20.xml" name="TR"/>
+<name>N-MOS</name>
+<reference><label color="-16777216">T4,250,343,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">BS170,250,331,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>235,345,235,350,3</line>
+<line>235,363,235,367,3</line>
+<line>240,348,240,368,1</line>
+<line>235,347,224,347,1</line>
+<line>235,365,224,365,1</line>
+<line>224,340,224,347,1</line>
+<line>224,356,224,371,1</line>
+<line>235,354,235,358,3</line>
+<arrow>224,356,234,356,1,3,2</arrow>
+<ellipse>219,342,28,28,2,1</ellipse>
+<pin type="0" style="0">
+<a>240,368, + false + ,3,0</a>
+</pin>
+<pin type="0" style="0">
+<a>224,344, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>224,368, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Analog Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>315,475,325,475,1</line>
+<triangle>8,317,478,6,2,1,1</triangle>
+<line>313,472,327,472,3</line>
+<pin type="0" style="0">
+<a>320,472, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Analog Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>339,339,349,339,1</line>
+<triangle>8,341,342,6,2,1,1</triangle>
+<line>337,336,351,336,3</line>
+<pin type="0" style="0">
+<a>344,336, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Analog Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>715,491,725,491,1</line>
+<triangle>8,717,494,6,2,1,1</triangle>
+<line>713,488,727,488,3</line>
+<pin type="0" style="0">
+<a>720,488, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>737,488,750,488,3</line>
+<pin type="0" style="0">
+<a>744,488, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>785,488,798,488,3</line>
+<pin type="0" style="0">
+<a>792,488, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>857,200,870,200,3</line>
+<pin type="0" style="0">
+<a>864,200, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>753,184,766,184,3</line>
+<pin type="0" style="0">
+<a>760,184, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>513,576,526,576,3</line>
+<pin type="0" style="0">
+<a>520,576, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>577,104,590,104,3</line>
+<pin type="0" style="0">
+<a>584,104, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>513,104,526,104,3</line>
+<pin type="0" style="0">
+<a>520,104, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>377,112,390,112,3</line>
+<pin type="0" style="0">
+<a>384,112, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>257,224,270,224,3</line>
+<pin type="0" style="0">
+<a>264,224, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>217,168,230,168,3</line>
+<pin type="0" style="0">
+<a>224,168, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>97,328,110,328,3</line>
+<pin type="0" style="0">
+<a>104,328, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>257,448,270,448,3</line>
+<pin type="0" style="0">
+<a>264,448, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="GROUND" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>217,392,230,392,3</line>
+<pin type="0" style="0">
+<a>224,392, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="POWER" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Vcc</name>
+<reference><label color="-16777216">Vcc,579,32,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">(5V),593,32,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<ellipse>581,34,6,6,1,1</ellipse>
+<pin type="0" style="0">
+<a>584,40, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="POWER" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Vcc</name>
+<reference><label color="-16777216">Vcc,755,80,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">(5V),769,80,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<ellipse>757,82,6,6,1,1</ellipse>
+<pin type="0" style="0">
+<a>760,88, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="POWER" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Vcc</name>
+<reference><label color="-16777216">Vcc,787,376,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">(5V),801,376,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<ellipse>789,378,6,6,1,1</ellipse>
+<pin type="0" style="0">
+<a>792,384, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="POWER" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Vcc</name>
+<reference><label color="-16777216">Vcc,515,528,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">(5V),529,528,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<ellipse>517,530,6,6,1,1</ellipse>
+<pin type="0" style="0">
+<a>520,536, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+</chips>
+<busses>
+<bus>
+<wire thickness="4"><wirepoints>240,488|368,488|400,464|400,240|</wirepoints>
+</wire>
+</bus>
+</busses>
+<buspins>
+<buspin>
+<name>DB7,410,279,LEFT,PLAIN,8</name>
+<wirepoints>400,288|408,280|</wirepoints>
+</buspin>
+<buspin>
+<name>DB6,410,271,LEFT,PLAIN,8</name>
+<wirepoints>400,280|408,272|</wirepoints>
+</buspin>
+<buspin>
+<name>DB5,410,263,LEFT,PLAIN,8</name>
+<wirepoints>400,272|408,264|</wirepoints>
+</buspin>
+<buspin>
+<name>DB4,410,255,LEFT,PLAIN,8</name>
+<wirepoints>400,264|408,256|</wirepoints>
+</buspin>
+<buspin>
+<name>PD7,231,496,TOP,PLAIN,8</name>
+<wirepoints>240,488|232,496|</wirepoints>
+</buspin>
+<buspin>
+<name>PD6,239,496,TOP,PLAIN,8</name>
+<wirepoints>248,488|240,496|</wirepoints>
+</buspin>
+<buspin>
+<name>PD5,247,496,TOP,PLAIN,8</name>
+<wirepoints>256,488|248,496|</wirepoints>
+</buspin>
+<buspin>
+<name>PD4,255,496,TOP,PLAIN,8</name>
+<wirepoints>264,488|256,496|</wirepoints>
+</buspin>
+<buspin>
+<name>E,410,246,LEFT,PLAIN,8</name>
+<wirepoints>400,256|408,248|</wirepoints>
+</buspin>
+<buspin>
+<name>RW,410,239,LEFT,PLAIN,8</name>
+<wirepoints>400,248|408,240|</wirepoints>
+</buspin>
+<buspin>
+<name>RS,410,231,LEFT,PLAIN,8</name>
+<wirepoints>400,240|408,232|</wirepoints>
+</buspin>
+<buspin>
+<name>PD3,303,496,TOP,PLAIN,8</name>
+<wirepoints>312,488|304,496|</wirepoints>
+</buspin>
+<buspin>
+<name>PD2,311,496,TOP,PLAIN,8</name>
+<wirepoints>320,488|312,496|</wirepoints>
+</buspin>
+<buspin>
+<name>PD1,319,496,TOP,PLAIN,8</name>
+<wirepoints>328,488|320,496|</wirepoints>
+</buspin>
+</buspins>
+<wires>
+<wire thickness="1"><wirepoints>696,152|760,152|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>872,152|760,152|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,320|496,320|496,368|784,368|784,160|872,160|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,336|512,352|776,352|776,168|872,168|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,328|504,328|504,360|792,360|792,184|872,184|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>872,176|856,176|856,112|760,112|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>760,96|760,112|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>88,48|152,48|152,56|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>80,272|104,272|104,320|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>88,448|152,448|152,360|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>88,72|88,424|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>80,296|112,296|112,200|80,200|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>152,136|152,320|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>344,216|344,248|136,248|136,176|80,176|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>152,88|176,88|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>216,88|224,88|224,104|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>176,104|224,104|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>152,312|176,312|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>216,312|224,312|224,328|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>176,328|224,328|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>792,392|792,408|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>696,184|712,184|712,448|792,448|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>792,456|792,440|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>248,144|472,144|472,224|512,224|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>568,64|584,64|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>584,72|584,64|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>536,64|496,64|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>496,48|584,48|584,64|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>248,368|264,368|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>384,80|384,72|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>352,456|352,464|320,464|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>376,320|376,328|344,328|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>352,432|352,424|320,424|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>376,296|376,288|344,288|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>400,48|400,104|384,104|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>696,176|744,176|744,456|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>696,168|720,168|720,480|744,480|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>864,192|864,144|872,144|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>344,184|344,72|400,72|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>152,96|152,88|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>152,48|320,48|320,384|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,296|472,296|472,368|264,368|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>352,424|464,424|464,192|512,192|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>376,288|456,288|456,184|512,184|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,280|408,280|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,272|408,272|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,264|408,264|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,256|408,256|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>232,512|232,496|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>240,512|240,496|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>248,512|248,496|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>256,496|256,512|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,248|408,248|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>408,240|512,240|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>512,232|408,232|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>304,512|304,496|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>312,512|312,496|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>320,512|320,496|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>224,160|224,152|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>224,112|224,104|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>224,384|224,376|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>224,328|224,336|</wirepoints>
+</wire>
+</wires>
+<junctions>
+<junction>760,152</junction>
+<junction>760,112</junction>
+<junction>88,296</junction>
+<junction>152,248</junction>
+<junction>152,88</junction>
+<junction>224,104</junction>
+<junction>152,312</junction>
+<junction>224,328</junction>
+<junction>792,448</junction>
+<junction>584,64</junction>
+<junction>520,64</junction>
+<junction>384,72</junction>
+<junction>320,464</junction>
+<junction>344,328</junction>
+<junction>320,424</junction>
+<junction>344,288</junction>
+<junction>384,104</junction>
+<junction>720,480</junction>
+<junction>744,480</junction>
+<junction>400,56</junction>
+<junction>400,64</junction>
+<junction>344,248</junction>
+<junction>152,48</junction>
+<junction>264,368</junction>
+<junction>264,144</junction>
+<junction>352,424</junction>
+<junction>376,288</junction>
+<junction>584,48</junction>
+</junctions>
+<labels>
+<label color="-52429">LCD debug!,269,561,LEFT,ITALIC,8</label>
+<label color="-65485">Remove at production,245,567,LEFT,ITALIC,8</label>
+</labels>
+<connectors>
+<connector style="0">
+<type>0</type>
+<name>PhV,75,51,RIGHT,PLAIN,8</name>
+<pin type="0" style="0">
+<a>80,48, + false + ,3,0</a>
+</pin>
+</connector>
+<connector style="0">
+<type>0</type>
+<name>GND,75,75,RIGHT,PLAIN,8</name>
+<pin type="0" style="0">
+<a>80,72, + false + ,3,0</a>
+</pin>
+</connector>
+<connector style="0">
+<type>1</type>
+<name>Switch,71,275,RIGHT,PLAIN,8</name>
+<pin type="0" style="0">
+<a>72,272, + false + ,3,0</a>
+</pin>
+</connector>
+<connector style="0">
+<type>1</type>
+<name>GND,70,299,RIGHT,PLAIN,8</name>
+<pin type="0" style="0">
+<a>72,296, + false + ,3,0</a>
+</pin>
+</connector>
+<connector style="0">
+<type>1</type>
+<name>LOAD,78,451,RIGHT,PLAIN,8</name>
+<pin type="0" style="0">
+<a>80,448, + false + ,3,0</a>
+</pin>
+</connector>
+<connector style="0">
+<type>1</type>
+<name>GND,78,427,RIGHT,PLAIN,8</name>
+<pin type="0" style="0">
+<a>80,424, + false + ,3,0</a>
+</pin>
+</connector>
+<connector style="0">
+<type>1</type>
+<name>Accu,70,179,RIGHT,PLAIN,8</name>
+<pin type="0" style="0">
+<a>72,176, + false + ,3,0</a>
+</pin>
+</connector>
+<connector style="0">
+<type>1</type>
+<name>GND,70,203,RIGHT,PLAIN,8</name>
+<pin type="0" style="0">
+<a>72,200, + false + ,3,0</a>
+</pin>
+</connector>
+</connectors>
+<noconnectors>
+</noconnectors>
+<netlabels>
+</netlabels>
+</symbols>
+</circuit>
+
+<circuit width="858" height="606">
+<name>LED Lamp</name>
+<symbols>
+<chips>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R1,330,407,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">0.27/0.5W,350,423,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>332,392,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>336,416, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>336,392, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>329,432,342,432,3</line>
+<pin type="0" style="0">
+<a>336,432, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>HV9910</name>
+<reference><label color="-16777216">IC1,248,340,RIGHT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">HV9910,248,392,RIGHT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>200,344,48,40,1,1,0</rectangle>
+<pin type="1" style="0">
+<a>248,376, + false + ,3,0</a>
+<name>Vin,243,379,RIGHT,PLAIN,8</name>
+<number>1,255,375,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>248,368, + false + ,3,0</a>
+<name>CS,243,371,RIGHT,PLAIN,8</name>
+<number>2,255,367,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>248,360, + false + ,3,0</a>
+<name>GND,243,363,RIGHT,PLAIN,8</name>
+<number>3,255,359,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>248,352, + false + ,3,0</a>
+<name>Gate,243,355,RIGHT,PLAIN,8</name>
+<number>4,255,351,LEFT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>200,376, + false + ,2,0</a>
+<name>Rosc,205,379,LEFT,PLAIN,8</name>
+<number>8,193,375,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>200,368, + false + ,2,0</a>
+<name>LD,205,371,LEFT,PLAIN,8</name>
+<number>7,193,367,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>200,360, + false + ,2,0</a>
+<name>Vdd,205,363,LEFT,PLAIN,8</name>
+<number>6,193,359,RIGHT,PLAIN,8</number>
+</pin>
+<pin type="1" style="0">
+<a>200,352, + false + ,2,0</a>
+<name>PWM,205,355,LEFT,PLAIN,8</name>
+<number>5,193,351,RIGHT,PLAIN,8</number>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Schottky diod</name>
+<reference><label color="-16777216">D1,387,317,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">1N5819,386,327,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<triangle>4,368,297,13,14,3,2</triangle>
+<line>381,311,381,297,2</line>
+<line>377,311,380,311,2</line>
+<line>381,297,384,297,2</line>
+<line>384,297,384,300,2</line>
+<line>377,308,377,311,2</line>
+<pin type="1" style="0">
+<a>376,304, + false + ,3,0</a>
+</pin>
+<pin type="1" style="0">
+<a>376,304, + false + ,2,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>265,432,278,432,3</line>
+<pin type="0" style="0">
+<a>272,432, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Vcc</name>
+<reference><label color="-16777216">Vcc1,102,186,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">(11-14)V,122,184,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<ellipse>114,189,6,6,1,1</ellipse>
+<pin type="0" style="0">
+<a>120,192, + false + ,3,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>169,240,182,240,3</line>
+<pin type="0" style="0">
+<a>176,240, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Resistor</name>
+<reference><label color="-16777216">R2,178,407,BOTTOM,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">470k,198,412,BOTTOM,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>180,392,8,24,1,3,0</rectangle>
+<pin type="0" style="0">
+<a>184,416, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>184,392, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>177,432,190,432,3</line>
+<pin type="0" style="0">
+<a>184,432, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Ground</name>
+<reference></reference>
+<unit></unit>
+<elements>
+<line>129,432,142,432,3</line>
+<pin type="0" style="0">
+<a>136,432, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C1,416,239,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">4.7uF/16V,414,256,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>400,240,16,3,1,2,0</rectangle>
+<rectangle>400,245,16,3,1,2,0</rectangle>
+<pin type="0" style="0">
+<a>408,240, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>408,248, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C2,187,212,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">10uF/25V,186,236,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>168,216,184,216,1</line>
+<rectangle>168,219,16,5,2,1,0</rectangle>
+<label color="-16777216">+,166,215,LEFT,PLAIN,8</label>
+<pin type="0" style="0">
+<a>176,216, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>176,224, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Capacitor</name>
+<reference><label color="-16777216">C3,140,387,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">22uF/16V,139,418,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>128,392,144,392,1</line>
+<rectangle>128,395,16,5,2,1,0</rectangle>
+<label color="-16777216">+,126,391,LEFT,PLAIN,8</label>
+<pin type="0" style="0">
+<a>136,392, + false + ,0,0</a>
+</pin>
+<pin type="0" style="0">
+<a>136,400, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>Inductor</name>
+<reference><label color="-16777216">L1,344,241,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">330uH,344,253,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>328,257,328,239,1</line>
+<ellipse>330,253,12,6,1,1</ellipse>
+<ellipse>330,250,12,6,1,1</ellipse>
+<ellipse>330,247,12,6,1,1</ellipse>
+<ellipse>330,244,12,6,1,1</ellipse>
+<ellipse>330,241,12,6,1,1</ellipse>
+<ellipse>330,238,12,6,1,1</ellipse>
+<pin type="0" style="0">
+<a>336,256, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>336,240, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>MOSFET</name>
+<reference><label color="-16777216">T1,342,355,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">2SK3065,342,364,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<line>324,335,324,353,3</line>
+<line>336,336,324,336,1</line>
+<line>320,336,320,352,1</line>
+<line>324,352,336,352,1</line>
+<line>312,352,320,352,1</line>
+<line>336,344,336,354,1</line>
+<arrow>336,344,325,344,1,3,2</arrow>
+<ellipse>313,331,26,26,2,1</ellipse>
+<pin type="0" style="0">
+<a>312,352, + false + ,2,0</a>
+</pin>
+<pin type="0" style="0">
+<a>336,352, + false + ,1,0</a>
+</pin>
+<pin type="0" style="0">
+<a>336,336, + false + ,0,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>LED</name>
+<reference><label color="-16777216">LED1,501,203,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">XREWHT-L1-0000-00602,502,215,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>465,208,14,4,1,2,0</rectangle>
+<triangle>2,465,212,14,12,1,2</triangle>
+<arrow>482,211,494,216,1,3,2</arrow>
+<arrow>482,221,494,226,1,3,2</arrow>
+<pin type="1" style="0">
+<a>472,216, + false + ,0,0</a>
+</pin>
+<pin type="1" style="0">
+<a>472,216, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>LED</name>
+<reference><label color="-16777216">LED2,502,240,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">XREWHT-L1-0000-00602,502,252,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>465,240,14,4,1,2,0</rectangle>
+<triangle>2,465,244,14,12,1,2</triangle>
+<arrow>482,243,494,248,1,3,2</arrow>
+<arrow>482,253,494,258,1,3,2</arrow>
+<pin type="1" style="0">
+<a>472,248, + false + ,0,0</a>
+</pin>
+<pin type="1" style="0">
+<a>472,248, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+<module type="SYMBOL" >
+<footprint library="" category=""  filename="" name=""/>
+<name>LED</name>
+<reference><label color="-16777216">LED3,503,272,LEFT,PLAIN,8</label>
+</reference>
+<unit><label color="-16777216">XREWHT-L1-0000-00602,504,284,LEFT,PLAIN,8</label>
+</unit>
+<elements>
+<rectangle>465,272,14,4,1,2,0</rectangle>
+<triangle>2,465,276,14,12,1,2</triangle>
+<arrow>482,275,494,280,1,3,2</arrow>
+<arrow>482,285,494,290,1,3,2</arrow>
+<pin type="1" style="0">
+<a>472,280, + false + ,0,0</a>
+</pin>
+<pin type="1" style="0">
+<a>472,280, + false + ,1,0</a>
+</pin>
+</elements>
+</module>
+</chips>
+<busses>
+</busses>
+<buspins>
+</buspins>
+<wires>
+<wire thickness="1"><wirepoints>336,328|336,264|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>264,352|304,352|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>336,384|336,360|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>264,368|336,368|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>360,304|336,304|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>392,304|472,304|472,296|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>408,256|408,304|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>264,360|272,360|272,424|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>128,192|472,192|472,200|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>408,232|408,192|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>336,232|336,192|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>176,208|176,192|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>264,376|296,376|296,192|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>184,360|136,360|136,384|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>184,368|136,368|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>184,376|184,384|</wirepoints>
+</wire>
+<wire thickness="1"><wirepoints>136,408|136,424|</wirepoints>
+</wire>
+</wires>
+<junctions>
+<junction>336,368</junction>
+<junction>336,304</junction>
+<junction>408,304</junction>
+<junction>408,192</junction>
+<junction>336,192</junction>
+<junction>176,192</junction>
+<junction>296,192</junction>
+<junction>136,368</junction>
+</junctions>
+<labels>
+</labels>
+<connectors>
+</connectors>
+<noconnectors>
+</noconnectors>
+<netlabels>
+</netlabels>
+</symbols>
+</circuit>
+
+</circuits>
