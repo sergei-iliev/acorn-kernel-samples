@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "SolarLight_v1", "SolarLight_v1.asmproj", "{FD0F159A-13B9-42F4-BE58-4CF834FFED8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD0F159A-13B9-42F4-BE58-4CF834FFED8F}.Debug|AVR.ActiveCfg = Debug|AVR
+		{FD0F159A-13B9-42F4-BE58-4CF834FFED8F}.Debug|AVR.Build.0 = Debug|AVR
+		{FD0F159A-13B9-42F4-BE58-4CF834FFED8F}.Release|AVR.ActiveCfg = Release|AVR
+		{FD0F159A-13B9-42F4-BE58-4CF834FFED8F}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
