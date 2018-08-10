@@ -1,6 +1,6 @@
 [RFID Card Reader based on Wiegand 26 protocol](../../wiki/RFIDCardReader)
 
-[RFID Card Reader and Arduino](../../wifi/WiFiCardReader-and-Arduino)
+[RFID Card Reader and Arduino](../../wiki/WiFiCardReader-and-Arduino)
 
 [HC-06 AT commands programming over PS2 keyboard](../../wiki/HC-06-AT-commands-over-PS2-keyboard)
 
