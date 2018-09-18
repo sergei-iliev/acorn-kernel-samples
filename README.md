@@ -8,3 +8,5 @@
 
 [Soler powered street light](../../wiki/Solar-powered-street-light)
 
+[RFID Card Reader over REST service](../../wiki/WiFi-Web-CardReader)
+
