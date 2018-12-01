@@ -10,5 +10,5 @@
 
 [RFID Card Reader over REST service](../../wiki/WiFi-Web-CardReader)
 
-[RFID Card Reader over REST service and ATMega168PA](../../wiki/WiFi-Web-CardReader)
+[RFID Card Reader over REST service and ATMega168PA](../../wiki/RFID-Card-Reader-over-REST-service-and-ATMega168PA)
 
