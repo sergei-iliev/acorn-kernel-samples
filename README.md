@@ -12,3 +12,5 @@
 
 [RFID Card Reader over REST service and ATMega168PA](../../wiki/RFID-Card-Reader-over-REST-service-and-ATMega168PA)
 
+All circuits and board xml files are viewable through myNetPCB import external file feature. 
+
