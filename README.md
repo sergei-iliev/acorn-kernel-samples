@@ -12,7 +12,7 @@
 
 [RFID Card Reader over REST service and ATMega168PA](../../wiki/RFID-Card-Reader-over-REST-service-and-ATMega168PA)
 
-[RS232 Chat messaging between 2 PCs](../../wiki/WiFi-Web-CardReader)
+[RS232 Chat messaging between 2 PCs](../../wiki/Simple-Chat-Between-2-PCs-Over-RS232-Serial-Port)
 
 All circuits and board xml files are viewable through [myNetPCB](https://github.com/sergei-iliev/myNetPCB) import external file feature. 
 
