@@ -8,7 +8,7 @@
 
 [Soler powered street light](../../wiki/Solar-powered-street-light)
 
-[RFID Card Reader over REST service](../../wiki/WiFi-Web-CardReader)
+[RFID Card Reader over REST service](../../wiki/RFID-Card-Reader-over-REST-service)
 
 [RFID Card Reader over REST service and ATMega168PA](../../wiki/RFID-Card-Reader-over-REST-service-and-ATMega168PA)
 
