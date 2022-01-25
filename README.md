@@ -1,4 +1,5 @@
-https://raw.githubusercontent.com/sergei-iliev/acorn-kernel/master/screenshots/logo.jpg
+[![Acorn kernel](https://raw.githubusercontent.com/sergei-iliev/acorn-kernel/master/screenshots/logo.jpg)](http://www.acorn-kernel.net)
+
 
 [RFID Card Reader based on Wiegand 26 protocol](../../wiki/RFIDCardReader)
 
