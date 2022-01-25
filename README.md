@@ -1,3 +1,5 @@
+https://raw.githubusercontent.com/sergei-iliev/acorn-kernel/master/screenshots/logo.jpg
+
 [RFID Card Reader based on Wiegand 26 protocol](../../wiki/RFIDCardReader)
 
 [RFID Card Reader and Arduino](../../wiki/WiFiCardReader-and-Arduino)
