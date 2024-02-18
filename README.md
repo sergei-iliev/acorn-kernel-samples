@@ -19,5 +19,7 @@
 
 [XMEGA Serial API Chat messaging between 2 PCs](../../wiki/Chrome-Serial-API-chat-messaging)
 
+[Sleeping with tiny402](../../wiki/tiny402)
+
 All circuits and board xml files are viewable through [myNetPCB](https://github.com/sergei-iliev/myNetPCB) import external file feature. 
 
