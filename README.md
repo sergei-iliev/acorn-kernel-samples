@@ -24,6 +24,7 @@
 [ATMega1608 controlling multiple oled sh1106 displays over I2C](../../wiki/ATMega1608-controlling-multiple-oled-sh1106-displays-over-I2C)
 
 [AVR128DA32 oled sh1107](../../wiki/AVR128DA32-oled-SH1107)
+
 [AVR128DA32 rtc clock on sh1107 display](../../wiki/AVR128DA32-rtc-clock-on--SH1107-display)
 
 All circuits and board xml files are viewable through [myNetPCB](https://github.com/sergei-iliev/myNetPCB) import external file feature. 
