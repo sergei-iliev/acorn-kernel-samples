@@ -531,20 +531,13 @@ USART0_RXC_Intr:
 _PRE_INTERRUPT
     ;store currently interrupted task's CPU context with registers used by queue
 	push ZH
-	push ZL
-	push cxh
-	push cxl
-	push dxh
-	push dxl
-	push axh
+	push ZL		
 	push axl
     push argument
 	push bxl
 	push bxh
 	push r0
 	push r1
-    push r2
-	push r3
 
  
  lds argument,USART0_RXDATAL  ;read the byte to enable the next interrupt
@@ -561,19 +554,12 @@ _PRE_INTERRUPT
    ldi axl,USART_QUEUE_MAX_SIZE	
    rcall spc_queue8_push
   
-	pop r3
-	pop r2
 	pop r1
 	pop r0
 	pop bxh
 	pop bxl
 	pop argument
-	pop axl
-	pop axh
-	pop dxl
-	pop dxh
-	pop cxl
-	pop cxh
+	pop axl	
 	pop ZL
 	pop ZH
 _POST_INTERRUPT
