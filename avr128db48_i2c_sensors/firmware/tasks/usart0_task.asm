@@ -10,11 +10,13 @@ Scan i2c and send result to serial terminal
 
 
 
-#define OUTPUT_QUEUE_MAX_SIZE  100
+#define I2C_QUEUE_MAX_SIZE  50
+#define AUX_QUEUE_MAX_SIZE  50
 .dseg
 
 ;head,tail + byte buffer
-output_queue: .byte 2+OUTPUT_QUEUE_MAX_SIZE			;8 bit output/result queue
+i2c_queue: .byte 2+I2C_QUEUE_MAX_SIZE			;8 bit output/result queue
+aux_queue: .byte 2+AUX_QUEUE_MAX_SIZE				;8 bit auxiliary queue
 
 
 .cseg
@@ -23,8 +25,12 @@ output_queue: .byte 2+OUTPUT_QUEUE_MAX_SIZE			;8 bit output/result queue
 
 usart0_task:	
 
-	ldi ZL,low(output_queue)
-	ldi ZH,high(output_queue)	
+	ldi ZL,low(i2c_queue)
+	ldi ZH,high(i2c_queue)	
+	rcall spc_queue8_init
+
+	ldi ZL,low(aux_queue)
+	ldi ZH,high(aux_queue)
 	rcall spc_queue8_init
 
 cli
@@ -35,31 +41,57 @@ sei
 	
 
 uart0_main:
-	ldi ZL,low(output_queue)
-	ldi ZH,high(output_queue)
-	ldi axl,OUTPUT_QUEUE_MAX_SIZE
-	rcall spc_queue8_pop
-	brtc uart0_idle
+	clr dxh
 
+uart0_i2c:
+	ldi ZL,low(i2c_queue)
+	ldi ZH,high(i2c_queue)
+	ldi axl,I2C_QUEUE_MAX_SIZE
+	rcall spc_queue8_pop
+	brtc uart0_i2c
+	inc dxh
 	mov argument,return
 	rcall usart0_send
-	rjmp uart0_main
+	cpi dxh,8
+	brne uart0_i2c
 
-uart0_idle:
-	_SLEEP_TASK_EXT 20000
+	clr dxh
+uart0_aux:
+	ldi ZL,low(aux_queue)
+	ldi ZH,high(aux_queue)
+	ldi axl,AUX_QUEUE_MAX_SIZE
+	rcall spc_queue8_pop
+	brtc uart0_aux
+	inc dxh
+	mov argument,return
+	rcall usart0_send
+	cpi dxh,8
+	brne uart0_aux
+
+
+	_SLEEP_TASK_EXT 2000
 rjmp uart0_main
 
 
 ;@INPUT: argument - byte to queue for USART TX
 ;@USAGE: Z, axl, bxl, bxh, r0, r1
 ;@OUTPUT: T flag 1 - queued, 0 - queue full
-usart0_queue:
-	ldi ZL,low(output_queue)
-	ldi ZH,high(output_queue)
-	ldi axl,OUTPUT_QUEUE_MAX_SIZE
+usart0_i2c_queue:
+	ldi ZL,low(i2c_queue)
+	ldi ZH,high(i2c_queue)
+	ldi axl,I2C_QUEUE_MAX_SIZE
 	rcall spc_queue8_push
 ret
 
+;@INPUT: argument - byte to queue for USART TX
+;@USAGE: Z, axl, bxl, bxh, r0, r1
+;@OUTPUT: T flag 1 - queued, 0 - queue full
+usart0_aux_queue:
+	ldi ZL,low(aux_queue)
+	ldi ZH,high(aux_queue)
+	ldi axl,AUX_QUEUE_MAX_SIZE
+	rcall spc_queue8_push
+ret
 ;@INPUT: argument
 usart0_send:
     sts USART0_TXDATAL,argument

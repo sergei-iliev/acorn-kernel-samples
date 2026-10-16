@@ -32,27 +32,27 @@ ds1302_task:
 ds1302_main:
 ;marker 0xFF
 	ldi argument,0xFF
-	rcall usart0_queue
+	rcall usart0_aux_queue
 
 	rcall ds1302_reset_on
 	rcall ds1302_read_time
 ;time
 	mov argument,r10
-	rcall usart0_queue
+	rcall usart0_aux_queue
 	mov argument,r9
-	rcall usart0_queue
+	rcall usart0_aux_queue
 	mov argument,r8
-	rcall usart0_queue
+	rcall usart0_aux_queue
 ;date
 	rcall ds1302_read_calendar
 	mov argument,r11
-	rcall usart0_queue
+	rcall usart0_aux_queue
 	mov argument,r9
-	rcall usart0_queue
+	rcall usart0_aux_queue
 	mov argument,r8
-	rcall usart0_queue
+	rcall usart0_aux_queue
 	mov argument,r10
-	rcall usart0_queue
+	rcall usart0_aux_queue
 	
 	rcall ds1302_reset_off
 

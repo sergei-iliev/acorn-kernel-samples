@@ -30,31 +30,31 @@ ds1307_tc74a1_main:
 	brtc ds1307_tc74a1_next
 ;marker 0
 	ldi argument,0x00
-	rcall usart0_queue
+	rcall usart0_i2c_queue
 
 ;time
 	mov argument,r10
-	rcall usart0_queue
+	rcall usart0_i2c_queue
 	mov argument,r9
-	rcall usart0_queue
+	rcall usart0_i2c_queue
 	mov argument,r8
-	rcall usart0_queue
+	rcall usart0_i2c_queue
 ;date
 	rcall ds1307_read_date
 	brtc ds1307_tc74a1_next
 
 	mov argument,r10
-	rcall usart0_queue
+	rcall usart0_i2c_queue
 	mov argument,r9
-	rcall usart0_queue
+	rcall usart0_i2c_queue
 	mov argument,r8
-	rcall usart0_queue
+	rcall usart0_i2c_queue
 
 ;temperature
 	rcall tc74a1_read_temp
 	
 	mov argument,axl
-	rcall usart0_queue
+	rcall usart0_i2c_queue
 
 ds1307_tc74a1_next:
 	_SLEEP_TASK_EXT 20000
