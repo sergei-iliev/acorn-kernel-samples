@@ -27,5 +27,7 @@
 
 [AVR128DA32 rtc clock on sh1107 display](../../wiki/AVR128DA32-rtc-clock-on--SH1107-display)
 
+[AVR128DB48 I2C RTC and Temperature Sensors](../../wiki/AVR128DB48-I2C-sensors)
+
 All circuits and board xml files are viewable through [myNetPCB](https://github.com/sergei-iliev/myNetPCB) import external file feature. 
 
