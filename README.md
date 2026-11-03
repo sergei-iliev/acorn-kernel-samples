@@ -29,5 +29,7 @@
 
 [AVR128DB48 I2C RTC and Temperature Sensors](../../wiki/AVR128DB48-I2C-RTC-and-Temperature-Sensors)
 
+[AVR128DA32 I2C multiple FRAM FM24C04B and RTC DS1307](../../wiki/AVR128DA32-I2C-multiple-FRAM-FM24C04B-and-RTC-DS1307)
+
 All circuits and board xml files are viewable through [myNetPCB](https://github.com/sergei-iliev/myNetPCB) import external file feature. 
 
